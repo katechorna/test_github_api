@@ -1,7 +1,7 @@
 import requests
 from behave import given, then
 
-from config import GITHUB_URL
+from features.config import GITHUB_URL
 
 GISTS_URL = GITHUB_URL + 'gists'
 
